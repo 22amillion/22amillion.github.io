@@ -258,14 +258,36 @@ p {
 #main-footer .item1 {
   margin-top: 30px;
   padding-right: 30px;
-  border-right: 1px solid #fff;
-  height: 40%;
+  /* border-right: 1px solid #fff;
+  height: 40%; */
+  position: relative;
+  border-right: none;
+}
+#main-footer .item1::after {
+  content: '';
+  position: absolute;
+  right: 0; 
+  top: 16%; 
+  height: 70%; 
+  border-right: 1px solid #fff; 
+  width: 0;
 }
 #main-footer .item2 {
   margin-top: 30px;
   padding: 0 30px;
-  border-right: 1px solid #fff;
-  height: 40%;
+  /* border-right: 1px solid #fff;
+  height: 40%; */
+  position: relative;
+  border-right: none;
+}
+#main-footer .item2::after {
+  content: '';
+  position: absolute;
+  right: 0; 
+  top: 12%; 
+  height: 60%; 
+  border-right: 1px solid #fff; 
+  width: 0;
 }
 #main-footer .item3 {
   margin-top: 30px;
